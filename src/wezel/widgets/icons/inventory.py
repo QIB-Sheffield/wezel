@@ -3,7 +3,9 @@ __all__ = [
     'slider_icon', 
     'application_import',
     'arrow_curve_180_left',
+    'arrow_in',
     'arrow_move',
+    'arrow_out',
     'bin_metal',
     'blue_document_export',
     'brightness',
@@ -23,11 +25,17 @@ __all__ = [
     'lock_unlock',
     'magnifier',
     'minus',
+    'paint',
     'paint_brush',
+    'paint_brush_minus',
+    'paint_brush_plus',
+    'paint_can_minus',
     'pencil',
     'plus',
     'question_mark',
     'spectrum',
+    'wand',
+    'wand_hat',
     'wezel', 
 ]
 
@@ -60,6 +68,8 @@ f = importlib_resources.files('wezel.widgets.icons.fugue_icons')
 
 application_import = str(f.joinpath('application-import.png'))
 arrow_curve_180_left = str(f.joinpath('arrow-curve-180-left.png'))
+arrow_in = str(f.joinpath('arrow-in.png'))
+arrow_out = str(f.joinpath('arrow-out.png'))
 arrow_move = str(f.joinpath('arrow-move.png'))
 bin_metal = str(f.joinpath('bin-metal.png'))
 blue_document_export = str(f.joinpath('blue-document-export.png'))
@@ -80,7 +90,13 @@ lock = str(f.joinpath('lock.png'))
 lock_unlock = str(f.joinpath('lock-unlock.png'))
 magnifier = str(f.joinpath('magnifier.png'))
 minus = str(f.joinpath('minus.png'))
+paint = str(f.joinpath('paint.png'))
+paint_can_minus = str(f.joinpath('paint-can-minus.png'))
 paint_brush = str(f.joinpath('paint-brush.png'))
+paint_brush_minus = str(f.joinpath('paint-brush-minus.png'))
+paint_brush_plus = str(f.joinpath('paint-brush-plus.png'))
 pencil = str(f.joinpath('pencil.png'))
 plus = str(f.joinpath('plus.png'))
 spectrum = str(f.joinpath('spectrum.png'))
+wand = str(f.joinpath('wand.png'))
+wand_hat = str(f.joinpath('wand-hat.png'))
